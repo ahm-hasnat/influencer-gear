@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", serif;
+    margin: 0;
+}
+
+/* header section */
+#header{
+    max-width: 85%;
+    margin: 4rem auto;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav h1{
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgba(58, 58, 58, 1);
+}
+.list ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    margin: 0;
+}
+.list li{
+    list-style: none;
+}
+.nav a{
+    text-decoration: none;
+    color: rgba(58, 58, 58, 1);
+    font-size:0.9rem ;
+    font-weight: 600;
+}
+.list a:hover{
+    color:rgb(140, 209, 209);
+}
+
+.nav img{
+    width: 1.2rem;
+    height: 1.2rem;
+}
+#banner{
+    display: flex;
+    margin-top: 3rem;
+    gap: 6rem; 
+    margin-bottom: 6rem;
+}
+.banertext{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.banertext h1{
+    color: rgba(58, 58, 58, 1);
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+}
+.banertext p{
+    color: rgba(58, 58, 58, 1);
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+.banertext button{
+    color: #ffff;
+    background-color: rgba(224, 44, 109, 1);
+    border-radius: 2.5rem;
+    border: none;
+    padding:0.8rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.banertext button:hover{
+    color:rgb(248, 248, 248);
+    background-color: #790469 ;
+}
+.camera{
+    background-image: url("assets/images/Circle\ design.svg");
+    width: 25rem;
+    height: 24rem;
+}
+.banerfoot{
+    width: 100%;
+    margin: 0 auto;
+}
+.logos{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.logos img{
+    height: 2rem;
+}
+
+.banerfoot hr{
+    width: 80%;
+    border: none;
+    height: 0.5px;
+    background: linear-gradient(to right ,rgba(192, 204, 218, 0.1),  rgba(192, 204, 218, 0.6), rgba(192, 204, 218, 0.1));
+}
+
+#collection{
+    width: 75%;
+    margin: 0 auto;
+}
+#collection h1{
+    text-align: center;
+    font-size:1.6rem;
+    font-weight: 600;
+    color: rgba(58, 58, 58, 1);
+    margin-bottom: 2.5rem;
+}
+
+.container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    justify-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    width: 15rem;
+    height: 25rem;
+    padding: 1rem;
+    margin-bottom: 1.8rem;
+    border: 0.1px solid rgba(120, 120, 133, 0.105);
+    border-radius: 0.3rem;
+    box-shadow: 5px 5px 5px rgba(120, 120, 133, 0.105);
+}
+.card h2{
+    margin-top: 0.8rem;
+    margin-bottom: 0.3rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgba(24, 25, 31, 1);
+}
+.card h3{
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.87);
+}
+.card p{
+    margin: 0;
+    text-align:start;
+    padding: 0.3rem;
+    font-size: 0.85rem;
+    font-weight: bold;
+    color: rgba(120, 120, 133, 1);
+}
+.card span{
+    display: flex;
+    color: rgba(251, 130, 0, 1);
+    margin-right: 10px;
+}
+.price{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 1rem;
+}
+.icon{
+    width: 16px;
+    height: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.image{
+    width: 15rem;
+    height: 14rem;
+}
+#collection button{
+    background-color: #ffff;
+    color:rgba(224, 44, 109, 0.87);
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.btn{
+    text-align: end;
+    margin-bottom: 3rem;
+}
+
+#last{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1rem;
+    margin-bottom: 3rem;
+}
+#last img{
+    width: 22rem;
+    height: 15rem;
+    margin-right: 6rem;
+}
+#last h1{
+    color: rgba(10, 8, 38, 1);
+    font-size: 1.9rem;
+    font-weight: bold;
+    margin-top: 0;
+}
+#last p{
+    color: rgba(108, 108, 108, 1);
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+#last button{
+    color: #ffff;
+    background-color: rgba(224, 44, 109, 1);
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.8rem 1.5rem;
+    border: none;
+}
+#last button:hover{
+    color: #c8e6f9;
+    background-color: navy;
+}
+
+#footer{
+    width: 100%;
+    margin: 0;
+    background:  linear-gradient(to bottom, rgb(28, 2, 46),rgba(34, 2, 56, 0.352));
+    padding: 1.5rem;
+    margin-top: 5rem;
+}
+#footer img{
+    width: 2rem;
+    height: 2rem;
+}
+#footer h1{
+    color: #ffff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+#footer p{
+    color: #ffff;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+}
+.footerlogo{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+@media  screen and (max-width: 576px) {
+    .nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .list ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    #banner{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .bannerbtn{
+        margin: 0 auto;
+    }
+    .camera{
+        margin: 0 auto;
+    }
+    
+    .logos{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    #last{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 1rem;
+        text-align: center;
+    }
+    #last img{
+        text-align: center;
+        padding: 1rem;
+        margin: 0 auto;
+    }
+    .btn{
+        text-align: center;
+    }
+}
