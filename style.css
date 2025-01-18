@@ -6,7 +6,7 @@
 
 /* header section */
 #header{
-    max-width: 85%;
+    width: 85%;
     margin: 4rem auto;
 }
 .nav{
@@ -236,7 +236,7 @@
 }
 
 #footer{
-    width: 100%;
+    width: calc(100% - 3rem);
     margin: 0;
     background:  linear-gradient(to bottom, rgb(28, 2, 46),rgba(34, 2, 56, 0.352));
     padding: 1.5rem;
@@ -310,5 +310,8 @@
     }
     .btn{
         text-align: center;
+    }
+    #footer{
+        width: calc(100% - 48px);
     }
 }
