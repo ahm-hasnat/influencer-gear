@@ -92,13 +92,22 @@
 }
 .logos{
     width: 80%;
-    margin: 0 auto;
+    margin: 0 ;
+    display: flex;
+    justify-content:space-between;
+    padding: 0.5rem;
+    gap: 2.5rem;
+}
+.div{
     display: flex;
     justify-content: space-between;
-    padding: 2rem;
+    gap: 3rem;
+    margin: 0;
+    padding: 0.5rem;
 }
 .logos img{
     height: 2rem;
+    width: 4rem;
 }
 
 .banerfoot hr{
@@ -282,14 +291,14 @@
     }
     #banner{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         text-align: center;
         margin: 3rem auto;
     }
     .banerfoot{
-        width: fit-content;
         margin: 0 auto;
         padding: 0;
+        text-align: center;
     }
     .bannerbtn{
         margin: 0 auto;
@@ -299,11 +308,16 @@
     }
     
     .logos{
-        display: flex;
-        flex-direction: column;
+        display: grid;
+     grid-template-columns: repeat(1,1fr);
+     justify-items: center;
         gap: 1rem;
-        margin: 4rem auto;
         padding: 0px;
+        margin: 0 auto;
+    }
+    .logos img{
+        width: 3rem;
+        height: 3rem;
     }
     .banerfoot hr{
         display: none;
